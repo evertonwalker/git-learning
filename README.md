@@ -25,4 +25,4 @@ Quando você mexe nele -> modificado ( modified )
 Qunado você adiciona ele (add) -> preparado ( staged )
 Quando você commita o que fez -> consolidado ( commited ) 
 
-[Work flow state](./work_flow_state.png)
+![Work flow state](./work_flow_state.png)
