@@ -17,3 +17,12 @@ git log -> mostrará todos o histórico de commit com os seus respectivos HASH -
 git remove -v -> mostrará com qual repositório sua pasta está conectada.
 
 git push -u origin main -> você seta o repositório que quer ficar sempre enviando os dados 
+
+# Estados dos arquivos no GIT
+
+Quando vocÊ cria -> não monitorado ( untracked )
+Quando você mexe nele -> modificado ( modified )
+Qunado você adiciona ele (add) -> preparado ( staged )
+Quando você commita o que fez -> consolidado ( commited ) 
+
+[Work flow state](./work_flow_state.png)
