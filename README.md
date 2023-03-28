@@ -1,4 +1,4 @@
-![./logo_git.png](Logo git)
+!["Logo git"](./logo_git.png)
 # Anotações sobre git
 
 git init nome_repositório -> Para criar repositório ou só git init se você já estiver na pasta.
