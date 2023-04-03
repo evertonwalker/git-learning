@@ -44,6 +44,8 @@ git reset <commit> -> Reseta o repositório para um determinado commit
 git reset --hard <commit> -> Reseta e remove todas as alterações, mt útil para desfazer vários commits e voltar para uma versão 
 específica do código.
 
+git test new
+
 # Estados dos arquivos no GIT
 
 Quando vocÊ cria -> não monitorado ( untracked )
