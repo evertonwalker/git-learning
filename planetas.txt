@@ -1,3 +1,4 @@
 Terra
 Venus
 Marte
+novo_planeta
