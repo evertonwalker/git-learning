@@ -30,6 +30,15 @@ git checkout <commit> <file> ->  você pode voltar seu arquivo para uma determin
 
 git checkout main -> você pode usar isso para sair do modo detached e voltar para branch original.
 
+git checkout -- <path_or_file> -> irá desfazer todas as alterações que não estejam no stage desde o último commit ( ou seja que foi adicionado
+mas ainda não foi comitado ).
+
+git checkout HEAD -- <path_file> -> desfazer as alterações desde o últmimo commit incluindo o stage.
+
+git checkout . -> desfaz de todos os arquivos.
+
+git revert <commit> -> ele criar um novo commit que desfaz as alterações do cmmit especificado ( mt útil para voltar para commits anteriores ).
+
 # Estados dos arquivos no GIT
 
 Quando vocÊ cria -> não monitorado ( untracked )
