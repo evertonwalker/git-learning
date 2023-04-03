@@ -26,6 +26,9 @@ git clone URL -> clona um repositório criado por alguém.
 
 git pull -> baixa as alterações de um projeto.
 
+git checkout <commit> <file> ->  você pode voltar seu arquivo para uma determinada parte do código baseado em um código anterior.
+
+git checkout main -> você pode usar isso para sair do modo detached e voltar para branch original.
 
 # Estados dos arquivos no GIT
 
