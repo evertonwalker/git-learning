@@ -37,7 +37,12 @@ git checkout HEAD -- <path_file> -> desfazer as alterações desde o últmimo co
 
 git checkout . -> desfaz de todos os arquivos.
 
-git revert <commit> -> ele criar um novo commit que desfaz as alterações do cmmit especificado ( mt útil para voltar para commits anteriores ).
+git revert <commit> -> ele criar um novo commit que desfaz as alterações do commit especificado ( mt útil para voltar para commits anteriores ).
+
+git reset <commit> -> Reseta o repositório para um determinado commit
+
+git reset --hard <commit> -> Reseta e remove todas as alterações, mt útil para desfazer vários commits e voltar para uma versão 
+específica do código.
 
 # Estados dos arquivos no GIT
 
