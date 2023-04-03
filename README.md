@@ -1,5 +1,5 @@
 !["Logo git"](./logo_git.png)
-# Anotações sobre git
+# Anotações sobre git - Comandos
 
 git init nome_repositório -> Para criar repositório ou só git init se você já estiver na pasta.
 
@@ -18,6 +18,15 @@ git remove -v -> mostrará com qual repositório sua pasta está conectada.
 
 git push -u origin main -> você seta o repositório que quer ficar sempre enviando os dados 
 
+git diff -> diferença entre commits e branchs ( esse não faz nada pq é como se você tenta-se comparar seu estado atual com o estado atual).
+
+git diff HEAD~1 -> vai comparar seu commit atual com o último commit que você fez ou seja -> HEAD - 1. 
+
+git clone URL -> clona um repositório criado por alguém.
+
+git pull -> baixa as alterações de um projeto.
+
+
 # Estados dos arquivos no GIT
 
 Quando vocÊ cria -> não monitorado ( untracked )
@@ -26,3 +35,4 @@ Qunado você adiciona ele (add) -> preparado ( staged )
 Quando você commita o que fez -> consolidado ( commited ) 
 
 ![Work flow state](./work_flow_state.png)
+
