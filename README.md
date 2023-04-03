@@ -44,6 +44,7 @@ git reset <commit> -> Reseta o repositório para um determinado commit
 git reset --hard <commit> -> Reseta e remove todas as alterações, mt útil para desfazer vários commits e voltar para uma versão 
 específica do código.
 
+Merge -> Momento onde seu código e de alguma pessoa dão conflito pelo fato de terem alterado a mesma linha, você precisa resolver ele ( conflito ), decidindo qual linha vai ficar e como, depois disso você adiciona as alterações, comita e faz o merge.
 # Estados dos arquivos no GIT
 
 Quando vocÊ cria -> não monitorado ( untracked )
